@@ -1,0 +1,20 @@
+/* Stub CSS file for your tinychat app! */
+
+body {
+  background-color: snow;
+  color: #333;
+  margin: 10px;
+}
+
+.list-group {
+  height: 675px;
+  overflow: scroll;
+}
+
+.badge {
+  float: right;
+}
+
+.user-message {
+  background-color: rgba(0,0,0,.075);
+}

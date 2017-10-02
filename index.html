@@ -1,0 +1,63 @@
+<!doctype html>
+<head>
+    <title>tinychat</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/style.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            tinychat
+            <span class="glyphicon glyphicon-bullhorn"></span>
+            <span class="glyphicon glyphicon-globe"></span>
+            <span class="glyphicon glyphicon-heart"></span>
+        </h1>
+        <div class="row">
+            <div class="col-xs-12">
+                <p>Gray boxes are your sent messages. White boxes are other people in the room. Click on your message if you wish to edit it. Remember to hit save. :)</p>
+                <div class="row">
+                    <!-- chat room display -->
+                    <div class="col-xs-12">
+                        <div class="list-group">
+                            <!-- mock view for chatroom messages
+                            <div class="list-group-item">
+                                <h5 class="mb-1">Test</h5>
+                                <small>Thu, 22 Jan 2015 19:03:54 GMT</small>
+                                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            </div> 
+                            -->
+                        </div>
+                    </div> 
+                </div>
+                <form id="needs-validation" class="row">
+
+                    <!-- bootstrapped inputs -->
+                    <div class="col-xs-3">
+                        <!-- username input -->
+                        <div class="input-group input-group-md">
+                          <span class="input-group-addon" id="sizing-addon1">Username</span>
+                          <input id="username" type="text" class="form-control" placeholder="Jane Doe" aria-label="Username" aria-describedby="sizing-addon1">
+                        </div>
+                    </div>
+                    <div class="col-xs-9">
+                        <!-- message input -->
+                        <div class="input-group input-group-md">
+                          <span class="input-group-addon">Message</span>
+                          <input id="msg-input" type="text" class="form-control" placeholder="Hey guys! How's it going?" aria-label="Product name" required>
+                          <span class="input-group-btn">
+                            <button id="msg-submit" class="btn btn-secondary" type="submit">Send</button>
+                          </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/js/app.js" type="text/javascript"></script>
+</html>
